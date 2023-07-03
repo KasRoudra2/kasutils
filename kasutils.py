@@ -519,4 +519,3 @@ def generate_readme(head_level=5):
         docstring = docstring.replace("\n", "")
         print(f"{'#'*head_level} {name}\n - ***{docstring}***")
 
-generate_readme()
